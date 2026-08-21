@@ -11,8 +11,6 @@ forged/authentic decision.
 The system takes a grayscale image and runs it through three parallel branches whose
 outputs are fused for classification:
 
-![Architecture](docs/architecture.png)
-
 ## Pipeline
 
 ### Input
