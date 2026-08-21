@@ -1,4 +1,5 @@
 <img width="1420" height="798" alt="image" src="https://github.com/user-attachments/assets/552e91c6-9c0b-4294-9027-b7862b11ff2e" />
+
 # Copy-Move Forgery Detection
 
 A multi-branch pipeline for detecting copy-move image forgeries, combining learned
@@ -27,7 +28,7 @@ forged regions.
 
 ### 2A) Copy-Move Evidence with SIFT
 SIFT keypoints are matched across the image, then **displacement voting** identifies
-repeated keypoints sharing a similar shift — the signature of a copy-move operation.
+repeated keypoints sharing a similar shift the signature of a copy-move operation.
 This yields a **copy-move heatmap** and associated match statistics.
 
 ### 2B) Edge Cues with SWT
